@@ -40,6 +40,10 @@ merge of both Git commit graphs.
    profile-local copies; named-profile now inherits the root installation. The safe uninstaller
    checks receipt hashes before deleting and preserves unrelated content.
 
+8. Removed the twelve nested single-skill plugin manifests inherited from Boom-Vitt.
+   The package now has one Claude plugin entrypoint, avoiding accidental standalone
+   plugin registration when skills are copied into a harness directory.
+
 ## What was preserved
 
 Twelve domain skills and their utility code/templates, domain disclaimers, upstream MIT
