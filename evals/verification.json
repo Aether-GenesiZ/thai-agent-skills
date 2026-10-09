@@ -1,0 +1,58 @@
+[
+  {
+    "harness": "claude",
+    "status": "passed",
+    "issues": [],
+    "response": {
+      "skill_loaded": "thai-language",
+      "rule": "อาจ (may), ต้อง (must), and ควร (should) are not interchangeable — preserve obligations and uncertainty when translating.",
+      "thai": "รบกวนตรวจร่างที่แนบมาภายในวันศุกร์ ยังไม่ต้องส่งให้ลูกค้าในตอนนี้",
+      "translation": "คุณสามารถยกเลิกได้ก่อนวันศุกร์ และต้องเก็บใบเสร็จรับเงินไว้",
+      "ui": "บันทึกไม่ได้"
+    }
+  },
+  {
+    "harness": "codex",
+    "status": "passed",
+    "issues": [],
+    "response": {
+      "skill_loaded": "thai-language",
+      "rule": "รักษาความหมายของการปฏิเสธ กำหนดเวลา และข้อผูกพันเมื่อแปลหรือแก้ไขข้อความ",
+      "thai": "รบกวนทีมตรวจร่างที่แนบภายในวันศุกร์ โดยยังไม่ต้องส่งให้ลูกค้า",
+      "translation": "คุณสามารถยกเลิกได้ก่อนวันศุกร์ คุณต้องเก็บใบเสร็จไว้",
+      "ui": "บันทึกไม่ได้"
+    }
+  },
+  {
+    "harness": "hermes",
+    "status": "passed",
+    "issues": [],
+    "response": {
+      "skill_loaded": "thai-language",
+      "rule": "For short UI strings, keep the action and state distinct: บันทึก (save action), บันทึกแล้ว (saved state), บันทึกไม่ได้ (failure).",
+      "thai": "รบกวนตรวจร่างที่แนบมาภายในวันศุกร์นี้ และยังไม่ต้องส่งให้ลูกค้า",
+      "translation": "ยกเลิกได้ก่อนวันศุกร์ และต้องเก็บใบเสร็จไว้",
+      "ui": "บันทึกไม่ได้"
+    }
+  },
+  {
+    "harness": "hermes-named-profile",
+    "status": "passed",
+    "issues": [],
+    "response": {
+      "skill_loaded": "thai-language",
+      "rule": "อาจ (may), ต้อง (must), and ควร (should) are not interchangeable — เวลาแปลต้องรักษาความหมายของความเป็นไปได้ ข้อผูกพัน และระดับความจำเป็นไว้ตามต้นฉบับ",
+      "thai": "รบกวนตรวจร่างที่แนบมาให้ภายในวันศุกร์ และยังไม่ต้องส่งให้ลูกค้าในตอนนี้",
+      "translation": "สามารถยกเลิกได้ก่อนวันศุกร์ และต้องเก็บใบเสร็จไว้",
+      "ui": "บันทึกไม่ได้"
+    },
+    "model_override": "GLM-5.3 (session only)",
+    "skill_source": "inherited root installation"
+  },
+  {
+    "harness": "agy",
+    "status": "runtime-blocked",
+    "reason": "HTTP 429 Individual quota reached; default model and gpt-oss-120b both rejected",
+    "static_skills_processed": 13
+  }
+]

@@ -1,0 +1,5 @@
+ใช้ skill thai-language ที่ติดตั้งอยู่เพื่อทำงานนี้ อ่าน SKILL.md ของ skill จริงก่อน แล้วตอบ JSON เท่านั้น มี keys skill_loaded, rule, thai, translation, ui โดย skill_loaded คือชื่อ skill ที่อ่าน และ rule คือคำแนะนำหนึ่งข้อจากไฟล์นั้น
+thai: เขียนข้อความแจ้งทีมอย่างสุภาพเป็นกลาง ไม่มีครับ/ค่ะ: ขอให้ตรวจร่างที่แนบภายในวันศุกร์ และยังไม่ต้องส่งให้ลูกค้า
+translation: แปล "You may cancel before Friday. You must keep the receipt." โดยรักษาความหมาย
+ui: แปลสถานะ "Could not save" สั้น ๆ
+ไม่แก้ไฟล์ ไม่เรียก API หรือส่งข้อความภายนอก

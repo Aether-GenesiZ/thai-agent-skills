@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+.pytest_cache/
+node_modules/
+evals/results/*.jsonl
+evals/results/*.log
+dist/
+evals/results/*-process.json
+evals/results/

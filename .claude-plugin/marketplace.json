@@ -1,0 +1,17 @@
+{
+  "name": "thai-agent-skills",
+  "owner": {
+    "name": "SerusBusiness"
+  },
+  "plugins": [
+    {
+      "name": "thai-agent-skills",
+      "source": "./",
+      "description": "Thai comprehension, natural writing and Thai domain utilities for AI agents.",
+      "version": "0.1.0"
+    }
+  ],
+  "metadata": {
+    "description": "Thai comprehension, natural writing and Thai domain utilities for AI agents."
+  }
+}

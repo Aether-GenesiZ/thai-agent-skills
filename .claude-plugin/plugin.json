@@ -1,0 +1,24 @@
+{
+  "name": "thai-agent-skills",
+  "version": "0.1.0",
+  "description": "Thai comprehension, natural writing and Thai domain utilities for AI agents.",
+  "license": "MIT",
+  "skills": [
+    "./skills/thai-address",
+    "./skills/thai-customer-service",
+    "./skills/thai-date-format",
+    "./skills/thai-festival-card",
+    "./skills/thai-government-form",
+    "./skills/thai-id-validate",
+    "./skills/thai-invoice",
+    "./skills/thai-language",
+    "./skills/thai-pdpa",
+    "./skills/thai-resume",
+    "./skills/thai-social-caption",
+    "./skills/thai-text-processing",
+    "./skills/thai-translate"
+  ],
+  "author": {
+    "name": "SerusBusiness"
+  }
+}
