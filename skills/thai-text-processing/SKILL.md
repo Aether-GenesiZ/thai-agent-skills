@@ -1,6 +1,7 @@
 ---
 name: thai-text-processing
 description: "Use this skill for any task involving Thai text in code — word segmentation, Unicode normalization, sorting/collation, search indexing, romanization, truncation, or database/Elasticsearch configuration for Thai. Trigger whenever the user asks to: tokenize / segment Thai (no spaces between words), normalize Thai text (NFC vs decomposed), sort Thai strings correctly, transliterate to roman / Latin, build a Thai search index, fix Thai text that breaks length limits or renders broken glyphs, or pick a Thai NLP library. Also trigger for requests like \"ตัดคำภาษาไทย\", \"Thai word segmentation\", \"Thai NLP\", \"ค้นหาภาษาไทย\", \"Thai romanization\", \"PyThaiNLP\", \"Thai sort\", \"ICU Thai\", \"Thai collation\", \"Thai search index\", \"Thai full text search\", or any variation. If the task involves processing Thai text in software, use this skill."
+license: "MIT"
 ---
 
 ## Portable language defaults

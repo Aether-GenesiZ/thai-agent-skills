@@ -21,11 +21,9 @@ Skill เป็นคำแนะนำและตัวอย่าง ไม�
 
 ต้องมี Python 3.9+ สำหรับ installer; การใช้ skill หลักไม่ต้องมี Python
 Repo: [Aether-GenesiZ/thai-agent-skills](https://github.com/Aether-GenesiZ/thai-agent-skills)
-repo นี้เป็น private ต้องมีสิทธิ์เข้าถึงองค์กรและลงชื่อเข้าใช้ GitHub ก่อน
-ตัวอย่างใช้ GitHub CLI (`gh auth login` หากยังไม่ได้ลงชื่อเข้าใช้):
+Public repository; cloning and local installation require no GitHub account.
 
 ```bash
-gh auth setup-git
 git clone https://github.com/Aether-GenesiZ/thai-agent-skills.git
 cd thai-agent-skills
 python3 scripts/install.py --harness all --dry-run
@@ -65,7 +63,7 @@ python3 scripts/install.py --target /path/to/harness/skills
 จึงไม่รับประกันว่าจะติดตั้งอัตโนมัติได้กับทุก harness ที่มีอยู่
 
 Claude Code ติดตั้งทั้งชุดจาก GitHub ผ่าน plugin marketplace ได้
-โดยต้องมี credentials ที่เข้าถึง private repo นี้:
+ผ่าน marketplace ของ repo นี้:
 
 ```text
 /plugin marketplace add Aether-GenesiZ/thai-agent-skills
@@ -92,7 +90,7 @@ python3 scripts/smoke.py --harness claude codex hermes agy
 ผลอยู่ใน `evals/results/` และตรวจว่าขอโหลด skill, รักษาความหมายพื้นฐานและตอบ UI ได้
 ควรดู tool trace เพื่อยืนยันการโหลดจริง และอ่านงานตัวอย่างด้วยตนเองเพื่อประเมินความลื่นไหล
 สร้าง zip สำหรับแจกหรือติดตั้งแบบ local plugin ได้ด้วย `python3 scripts/package.py`
-ไฟล์อยู่ที่ `dist/thai-agent-skills-0.1.0.zip` และเก็บโครงสร้างสำหรับ `claude --plugin-dir`
+ไฟล์อยู่ที่ `dist/thai-agent-skills-0.1.1.zip` และเก็บโครงสร้างสำหรับ `claude --plugin-dir`
 
 ผลการตรวจเครื่องนี้อยู่ที่ [docs/VERIFICATION.md](docs/VERIFICATION.md)
 
@@ -103,3 +101,11 @@ commit ต้นทางอยู่ใน `sources.json` ไม่ดึง co
 มาแจกเพิ่ม advanced references เป็นกฎและคำอธิบายของต้นทาง
 `kien-thai`/`kode-thai` ถูกผสานเป็นแกนภาษาและการตรวจทานแบบจำกัดจำนวนรอบ
 ไม่มี dependency ข้าม skill สองตัวหรือการเรียก Thai-native model อัตโนมัติ
+
+## Contributing and support
+
+See [CONTRIBUTING.md](CONTRIBUTING.md), [SUPPORT.md](SUPPORT.md),
+[SECURITY.md](SECURITY.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md),
+and [CHANGELOG.md](CHANGELOG.md). Code and skill instructions are MIT licensed;
+see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for upstream attribution
+and the province-data licensing exception.

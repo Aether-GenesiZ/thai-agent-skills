@@ -1,6 +1,7 @@
 ---
 name: thai-customer-service
 description: "Use this skill for any task involving Thai customer service messaging — replies, apologies, status updates, refund/return scripts, and auto-replies on LINE OA, Facebook Page, Shopee, Lazada, Instagram DM, TikTok Shop, and similar channels. Trigger whenever the user asks to: reply to a Thai customer, draft an apology, write a refund or return message, write an auto-reply, de-escalate an angry customer, or send a shipping/status update in Thai. Also trigger for requests like \"ตอบลูกค้า\", \"reply LINE OA\", \"ตอบแชท\", \"Shopee reply\", \"ข้อความขอโทษลูกค้า\", \"customer service Thai\", \"เขียน auto reply\", \"ตอบ inbox\", or any variation. If the output is a Thai message from a business to a customer, use this skill."
+license: "MIT"
 ---
 
 ## Portable language defaults

@@ -1,0 +1,8 @@
+{
+  "name": "thai-agent-skills-dev",
+  "version": "0.1.1",
+  "private": true,
+  "devDependencies": {
+    "tsx": "4.23.15"
+  }
+}

@@ -1,6 +1,7 @@
 ---
 name: thai-date-format
 description: "Use this skill for any task involving Thai date formatting, Buddhist Era (พ.ศ.) ↔ Gregorian (ค.ศ.) year conversion, or Arabic ↔ Thai numeral conversion. Trigger whenever the user asks to: convert พ.ศ. to ค.ศ. or vice versa, format a date in Thai government / business / casual style, parse a Thai date string with full or abbreviated month names, or convert digits between 0123456789 and ๐๑๒๓๔๕๖๗๘๙. Also trigger for requests like \"แปลง พ.ศ. เป็น ค.ศ.\", \"จัดรูปแบบวันที่ไทย\", \"วันที่แบบราชการ\", \"เปลี่ยนเป็นเลขไทย\", or any variation involving Thai calendar dates."
+license: "MIT"
 ---
 
 ## Portable language defaults

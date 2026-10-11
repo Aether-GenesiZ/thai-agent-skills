@@ -1,6 +1,7 @@
 ---
 name: thai-language
 description: "Understand Thai requests and write clear, natural Thai, including chat replies, mixed Thai-English instructions, translation, UI text, emails, documentation and prose editing. Use for Thai input or Thai output, requests such as ช่วยเขียนไทย, แปลเป็นไทย, ตรวจภาษาไทย, or unclear colloquial Thai."
+license: "MIT"
 ---
 
 # Thai language / เข้าใจไทย เขียนไทย

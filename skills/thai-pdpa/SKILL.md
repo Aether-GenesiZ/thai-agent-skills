@@ -1,6 +1,7 @@
 ---
 name: thai-pdpa
 description: "Use this skill for tasks involving Thailand's PDPA (พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562). Trigger whenever the user asks to: draft a Thai privacy notice, write a PDPA consent banner, prepare a data subject rights notice, draft a 72-hour breach notification to the PDPC, decide if a DPO is required, list lawful bases, handle cross-border transfers, or audit a notice against PDPA. Also trigger for \"เขียน privacy policy\", \"PDPA\", \"ขอความยินยอม\", \"นโยบายความเป็นส่วนตัว\", \"consent banner ไทย\", \"Thai privacy notice\", \"PDPA compliance\", \"DPO Thailand\", \"ประกาศการละเมิดข้อมูล\", or any variation. If the task involves Thai personal data law, consent, or notice drafting, use this skill."
+license: "MIT"
 ---
 
 ## Portable language defaults

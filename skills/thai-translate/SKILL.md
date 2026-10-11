@@ -1,6 +1,7 @@
 ---
 name: thai-translate
 description: "Use this skill for any task involving English-Thai or Thai-English translation, localization, or rewording. Trigger whenever the user asks to: translate text between Thai and English, localize content for a Thai audience, render English idioms in Thai (or vice versa), pick the right pronouns and register, choose between keeping a term in English vs ทับศัพท์, or fix awkward translations. Also trigger for requests like \"แปลเป็นไทย\", \"แปลอังกฤษเป็นไทย\", \"ช่วยแปลหน่อย\", \"localize Thai\", \"translate this\", \"Thai version\", or any variation. If the task involves moving meaning between Thai and English at any level — word, sentence, document — use this skill."
+license: "MIT"
 ---
 
 ## Portable language defaults

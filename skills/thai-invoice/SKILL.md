@@ -1,6 +1,7 @@
 ---
 name: thai-invoice
 description: "Use this skill for any task involving Thai tax invoices, receipts, quotations, or withholding-tax certificates. Trigger whenever the user asks to: draft a Thai tax invoice (ใบกำกับภาษี), receipt (ใบเสร็จ), quotation (ใบเสนอราคา), credit/debit note (ใบลดหนี้/ใบเพิ่มหนี้), or WHT certificate (ภ.ง.ด.3/53). Also trigger for requests like \"ออกใบกำกับภาษี\", \"ใบเสร็จ\", \"ใบเสนอราคา\", \"Thai tax invoice\", \"VAT 7%\", \"ภาษีหัก ณ ที่จ่าย\", or any variation. If the context involves Thai accounting documents under Revenue Code §86/4, use this skill."
+license: "MIT"
 ---
 
 ## Portable language defaults

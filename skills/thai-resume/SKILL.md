@@ -1,6 +1,7 @@
 ---
 name: thai-resume
 description: "Use this skill for any task involving Thai-language or bilingual (TH/EN) resumes and CVs. Trigger whenever the user asks to: write a Thai resume, draft a CV in Thai, build a bilingual Thai-English resume, format an application for a Thai employer, choose between พ.ศ. and ค.ศ. dates in a CV, or tailor a resume for ราชการ, MNC, or tech startups in Thailand. Also trigger for requests like \"เขียนเรซูเม่\", \"เขียน CV ภาษาไทย\", \"เรซูเม่สองภาษา\", \"สมัครงาน ราชการ\", \"เขียนเรซูเม่ภาษาไทย\", or any variation involving Thai job applications."
+license: "MIT"
 ---
 
 ## Portable language defaults

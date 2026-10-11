@@ -1,3 +1,5 @@
+> Adapted from [chakrit/kien-thai](https://github.com/chakrit/kien-thai/tree/3695c889a23538e97ddae45c53e8b894730b41f5), MIT. These optional notes describe upstream observations; no external corpus is bundled or required. Follow the core skill and user context when a recommendation conflicts.
+
 # Voice and craft preferences (style)
 
 Subjective style/voice preferences distinct from the mechanical Thai-correctness

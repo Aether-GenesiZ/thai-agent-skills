@@ -1,3 +1,5 @@
+> Adapted from [chakrit/kien-thai](https://github.com/chakrit/kien-thai/tree/3695c889a23538e97ddae45c53e8b894730b41f5), MIT. These optional notes describe upstream observations; no external corpus is bundled or required. Follow the core skill and user context when a recommendation conflicts.
+
 # Register and voice guide
 
 Register and voice are two top-level concerns. **Register** governs structural
@@ -36,7 +38,7 @@ Marketing (brand mood) and Personal blog (gender, formality).
   to `ผม`.
 - **Brand mood** — for Marketing. Distinguishes warm-direct (FoodStory, Page365),
   cold-formal (Bluebik), warm-pro (SCB Stories, Krungsri Plearn), practical-direct
-  (Lalamove merchant). Pick from corpus exemplars.
+  (Lalamove merchant). Use the bundled examples or user-supplied text.
 - **Formality level within register** — opener choice (slang vs explainer), particle
   frequency, English code-switch density all shift formality without changing
   register.

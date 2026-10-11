@@ -7,3 +7,9 @@ evals/results/*.log
 dist/
 evals/results/*-process.json
 evals/results/
+
+.env
+.env.*
+*.pem
+*.key
+*.bundle

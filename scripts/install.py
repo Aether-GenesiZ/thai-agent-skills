@@ -85,7 +85,7 @@ def install(targets: list[Path], *, check: bool = False, dry_run: bool = False) 
                         raise
                 finally:
                     shutil.rmtree(staging)
-            receipt = {'package':'thai-agent-skills', 'version':'0.1.0',
+            receipt = {'package':'thai-agent-skills', 'version':json.loads((ROOT / '.claude-plugin/plugin.json').read_text())['version'],
                        'source':str(ROOT), 'skills':{s.name:e for _,s,_,e,_ in selected}}
             with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=target,
                                              prefix='.thai-receipt-', delete=False) as f:

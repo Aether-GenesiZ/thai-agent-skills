@@ -1,6 +1,7 @@
 ---
 name: thai-government-form
 description: "Use this skill for any task involving Thai government letters, official correspondence, formal petitions, authorization letters, leave requests, or ราชการ forms. Trigger whenever the user asks to: write หนังสือราชการ, draft a คำร้อง, write an authorization (หนังสือมอบอำนาจ), submit a leave form (ใบลา), petition a government agency, or write a formal letter to a Thai official. Also trigger for requests like \"เขียนหนังสือราชการ\", \"ยื่นเรื่อง\", \"คำร้อง\", \"หนังสือถึงราชการ\", \"ทำหนังสือถึง\", \"ใบลา\", \"หนังสือมอบอำนาจ\", \"official Thai letter\", or any formal ราชการ document task."
+license: "MIT"
 ---
 
 ## Portable language defaults

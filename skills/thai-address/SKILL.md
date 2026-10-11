@@ -1,6 +1,7 @@
 ---
 name: thai-address
 description: "Use this skill for any task involving Thai postal address parsing, validation, formatting, or province/postcode lookup. Trigger whenever the user asks to: parse a Thai address into fields, validate a 5-digit Thai postcode, look up a province from its postcode, or format an address for a shipping label. Also trigger for requests like \"แยกที่อยู่ไทย\", \"ตรวจรหัสไปรษณีย์\", \"แปลที่อยู่เป็นภาษาอังกฤษ\", \"ที่อยู่จัดส่ง\", or any variation involving Thai addresses with ตำบล/แขวง/อำเภอ/เขต/จังหวัด."
+license: "See LICENSE and DATA_SOURCES.md"
 ---
 
 ## Portable language defaults

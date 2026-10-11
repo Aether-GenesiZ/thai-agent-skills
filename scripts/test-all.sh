@@ -99,9 +99,9 @@ fi
 if [ "$want_ts" -eq 1 ]; then
   # We invoke tsx via npx --yes so contributors do not have to install
   # anything before running the suite. CI does the same to keep parity.
-  run_case "thai-id-validate/validate.ts" "$NPX" --yes tsx skills/thai-id-validate/validate.ts
-  run_case "thai-date-format/convert.ts"  "$NPX" --yes tsx skills/thai-date-format/convert.ts
-  run_case "thai-address/parse.ts"        "$NPX" --yes tsx skills/thai-address/parse.ts
+  run_case "thai-id-validate/validate.ts" "$NPX" --yes tsx@4.23.15 skills/thai-id-validate/validate.ts
+  run_case "thai-date-format/convert.ts"  "$NPX" --yes tsx@4.23.15 skills/thai-date-format/convert.ts
+  run_case "thai-address/parse.ts"        "$NPX" --yes tsx@4.23.15 skills/thai-address/parse.ts
 fi
 
 printf '\n===== summary =====\n'

@@ -1,6 +1,7 @@
 ---
 name: thai-id-validate
 description: "Use this skill for any task involving Thai national ID, tax ID, phone number, or PromptPay QR code validation, normalization, or generation. Trigger whenever the user asks to: validate a Thai citizen ID, check a tax ID checksum, normalize Thai phone numbers between +66 and 0X formats, or build a PromptPay QR payload. Also trigger for requests like \"ตรวจเลขบัตรประชาชน\", \"เช็คเลขผู้เสียภาษี\", \"แปลงเบอร์โทร +66\", \"สร้าง PromptPay QR\", \"ทำคิวอาร์พร้อมเพย์\", or any variation involving 13-digit Thai IDs or Thai phone formats."
+license: "MIT"
 ---
 
 ## Portable language defaults

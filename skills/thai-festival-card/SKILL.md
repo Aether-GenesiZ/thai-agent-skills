@@ -1,6 +1,7 @@
 ---
 name: thai-festival-card
 description: "Use this skill for any task involving Thai festival greetings, condolences, wedding cards, royal-occasion messages, or seasonal cards. Trigger whenever the user asks to: write a Songkran/Loy Krathong/New Year greeting, draft a condolence message, write a wedding card, compose a Mother's/Father's Day message, write a royal-occasion blessing, or pick auspicious wording for a Thai card. Also trigger for requests like \"อวยพรปีใหม่\", \"การ์ดสงกรานต์\", \"ข้อความลอยกระทง\", \"คำไว้อาลัย\", \"การ์ดแต่งงาน\", \"อวยพรวันแม่\", \"อวยพรวันพ่อ\", \"ทรงพระเจริญ\", \"ตรุษจีน\", or any festival/ceremonial greeting in Thai."
+license: "MIT"
 ---
 
 ## Portable language defaults

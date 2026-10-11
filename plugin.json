@@ -1,6 +1,6 @@
 {
   "name": "thai-agent-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Thai comprehension, natural writing and Thai domain utilities for AI agents.",
   "license": "MIT",
   "skills": [

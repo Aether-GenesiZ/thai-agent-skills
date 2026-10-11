@@ -1,6 +1,7 @@
 ---
 name: thai-social-caption
 description: "Use this skill for any task involving writing Thai-language social media captions, posts, or short-form copy. Trigger whenever the user asks to: write a caption for Facebook, Instagram, TikTok, Threads, X (Twitter), Pantip, or LINE TIMELINE in Thai, draft a Thai social post, write a Thai product/review/giveaway post, pick hashtags for a Thai audience, or adapt copy for a Thai social channel. Also trigger for requests like \"เขียนแคปชั่น\", \"caption ภาษาไทย\", \"เขียน TikTok caption\", \"โพสต์ Facebook\", \"ลงไอจี\", \"caption social media Thai\", \"เขียนรีวิว\", or any variation. If the output is a short Thai post designed to be published on a social platform, use this skill."
+license: "MIT"
 ---
 
 ## Portable language defaults

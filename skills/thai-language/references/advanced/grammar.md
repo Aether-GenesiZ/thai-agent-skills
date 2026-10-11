@@ -1,3 +1,5 @@
+> Adapted from [chakrit/kien-thai](https://github.com/chakrit/kien-thai/tree/3695c889a23538e97ddae45c53e8b894730b41f5), MIT. These optional notes describe upstream observations; no external corpus is bundled or required. Follow the core skill and user context when a recommendation conflicts.
+
 # Surface Thai grammar
 
 Word/phrase-level Thai grammar — hard rules, all registers. Distinct from the
@@ -155,7 +157,7 @@ subject/verb combinations (e.g. `เจอเขาทีไร เขายิ�
 trigger hypothesis (the right-clause state must be bound to the trigger event,
 not exist independently) captures some cases but does not predict reliably.
 Treat `ทีไร + เสมอ` pairings as a tagged exemplar collection — see
-`examples.md` — not as a universal rule.
+`../patterns.md` — not as a universal rule.
 
 ### `frame-scoped-ko` *(mechanical · all-registers · hard)*
 
