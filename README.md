@@ -20,9 +20,13 @@ Skill เป็นคำแนะนำและตัวอย่าง ไม�
 ## ติดตั้ง
 
 ต้องมี Python 3.9+ สำหรับ installer; การใช้ skill หลักไม่ต้องมี Python
-รันจาก clone ของ repo นี้:
+Repo: [Aether-GenesiZ/thai-agent-skills](https://github.com/Aether-GenesiZ/thai-agent-skills)
+repo นี้เป็น private ต้องมีสิทธิ์เข้าถึงองค์กรและลงชื่อเข้าใช้ GitHub ก่อน
+ตัวอย่างใช้ GitHub CLI (`gh auth login` หากยังไม่ได้ลงชื่อเข้าใช้):
 
 ```bash
+gh repo clone Aether-GenesiZ/thai-agent-skills
+cd thai-agent-skills
 python3 scripts/install.py --harness all --dry-run
 python3 scripts/install.py --harness all
 python3 scripts/install.py --harness all --check
@@ -59,12 +63,16 @@ python3 scripts/install.py --target /path/to/harness/skills
 เครื่องมือที่ไม่รองรับ Agent Skills ต้องใช้วิธีเพิ่ม instruction ของเครื่องมือนั้น
 จึงไม่รับประกันว่าจะติดตั้งอัตโนมัติได้กับทุก harness ที่มีอยู่
 
-Claude plugin marketplace รองรับการติดตั้งทั้งชุดจาก local repo:
+Claude Code ติดตั้งทั้งชุดจาก GitHub ผ่าน plugin marketplace ได้
+โดยต้องมี credentials ที่เข้าถึง private repo นี้:
 
 ```text
-/plugin marketplace add /absolute/path/to/thai-agent-skills
+/plugin marketplace add Aether-GenesiZ/thai-agent-skills
 /plugin install thai-agent-skills@thai-agent-skills
 ```
+
+หาก clone repo ไว้แล้ว ใช้ `/plugin marketplace add /absolute/path/to/thai-agent-skills`
+เพื่อติดตั้งจากโฟลเดอร์ local ได้เช่นกัน
 
 เปิด session ใหม่หลังติดตั้ง สำหรับ Hermes สามารถ preload ด้วย `hermes -s thai-language`
 หรือพิมพ์ `ใช้ skill thai-language ช่วยแก้ข้อความนี้…` ใน harness ใดก็ได้

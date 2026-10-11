@@ -19,6 +19,9 @@
     "./skills/thai-translate"
   ],
   "author": {
-    "name": "SerusBusiness"
-  }
+    "name": "Aether-GenesiZ",
+    "url": "https://github.com/Aether-GenesiZ"
+  },
+  "homepage": "https://github.com/Aether-GenesiZ/thai-agent-skills",
+  "repository": "https://github.com/Aether-GenesiZ/thai-agent-skills"
 }
