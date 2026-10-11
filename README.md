@@ -25,7 +25,8 @@ repo นี้เป็น private ต้องมีสิทธิ์เข้
 ตัวอย่างใช้ GitHub CLI (`gh auth login` หากยังไม่ได้ลงชื่อเข้าใช้):
 
 ```bash
-gh repo clone Aether-GenesiZ/thai-agent-skills
+gh auth setup-git
+git clone https://github.com/Aether-GenesiZ/thai-agent-skills.git
 cd thai-agent-skills
 python3 scripts/install.py --harness all --dry-run
 python3 scripts/install.py --harness all
